@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.zzg</groupId>
+		<artifactId>boot-shrio</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>boot-shrio-job</artifactId>
+
+	<dependencies>
+		<!--依赖功能基础jar包 -->
+		<dependency>
+			<groupId>com.zzg</groupId>
+			<artifactId>boot-shrio-common</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<!-- 依赖定时任务jar 包 quartz-->
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz</artifactId>
+		</dependency>
+	</dependencies>
+</project>
