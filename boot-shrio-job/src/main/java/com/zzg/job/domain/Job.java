@@ -52,7 +52,6 @@ public class Job implements Serializable {
     private String params;
 
     @Column(name = "CRON_EXPRESSION")
-
     private String cronExpression;
 
     @Column(name = "STATUS")

@@ -16,19 +16,37 @@
 			<groupId>com.zzg</groupId>
 			<artifactId>boot-shrio-common</artifactId>
 			<version>1.0.0</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.google.guava</groupId>
+					<artifactId>guava</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<!-- 文件上传管理  -->
+		<!--
 		<dependency>
 			<groupId>com.zzg</groupId>
 			<artifactId>boot-shrio-file</artifactId>
 			<version>1.0.0</version>
-		</dependency>
+		</dependency>  -->
 		<!-- 依赖定时任务框架  -->
-		<!-- 
 		<dependency>
 			<groupId>com.zzg</groupId>
 			<artifactId>boot-shrio-job</artifactId>
 			<version>1.0.0</version>
-		</dependency> -->
+			<exclusions>
+				<exclusion>
+					<groupId>com.google.guava</groupId>
+					<artifactId>guava</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency> 
+		<!-- 依赖分布式定时任务框架  -->
+		<dependency>
+			<groupId>com.zzg</groupId>
+			<artifactId>boot-shrio-elastic-job</artifactId>
+			<version>1.0.0</version>
+		</dependency> 
 	</dependencies>
 </project>

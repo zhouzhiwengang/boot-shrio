@@ -70,7 +70,7 @@
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>25.1-jre</version>
+			<version>20.0</version>
 		</dependency>
 
 		<!--mybatis 整合 -->
@@ -108,7 +108,7 @@
 		<module>boot-shrio-common</module>
 		<module>boot-shrio-system</module>
 		<module>boot-shrio-job</module>
-		<module>boot-shrio-entity</module>
 		<module>boot-shrio-file</module>
+		<module>boot-shrio-elastic-job</module>
 	</modules>
 </project>

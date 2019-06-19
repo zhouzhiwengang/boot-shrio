@@ -126,7 +126,7 @@ jasypt:
 
 mybatis:
   # type-aliases扫描路径
-  type-aliases-package: com.zzg.system.domain,com.zzg.file.domain
+  type-aliases-package: com.zzg.system.domain,com.zzg.job.domain,com.zzg.elasticjob.domain
   # mapper xml实现扫描路径
   mapper-locations: classpath:mapper/*/*.xml
   configuration:
@@ -179,3 +179,7 @@ febs:
 # 文件上传目录地址
 prop:
   upload-folder: C://files
+# 分布式定时任务 
+elasticjob:
+  serverlists: 192.168.1.74:2181
+  namespace: boot-elasticjob
